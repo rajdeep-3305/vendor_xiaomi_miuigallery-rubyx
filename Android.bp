@@ -13,7 +13,6 @@ android_app_import {
         "Gallery2", "Glimpse" // This replaces the default AOSP/LineageOS Gallery if it exists
     ],
     certificate: "platform", // Revert to platform signing!
-    preprocessed: true,
     dex_preopt: {
         enabled: false,
     },
