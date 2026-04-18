@@ -10,7 +10,7 @@ android_app_import {
     owner: "xiaomi",
     apk: "proprietary/system/priv-app/MiuiGallery/MiuiGallery.apk",
     overrides: [
-        "Gallery2", // This replaces the default AOSP Gallery if it exists
+        "Gallery2", "Glimpse" // This replaces the default AOSP/LineageOS Gallery if it exists
     ],
     certificate: "platform",
     dex_preopt: {
