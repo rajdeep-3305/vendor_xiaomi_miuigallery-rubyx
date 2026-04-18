@@ -1,0 +1,41 @@
+//
+// Automatically generated file. DO NOT MODIFY
+//
+
+soong_namespace {
+}
+
+android_app_import {
+    name: "MiuiGallery",
+    owner: "xiaomi",
+    apk: "proprietary/system/priv-app/MiuiGallery/MiuiGallery.apk",
+    overrides: [
+        "Gallery2", // This replaces the default AOSP Gallery if it exists
+    ],
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
+
+prebuilt_etc {
+    name: "privapp-com.miui.gallery.xml",
+    src: "proprietary/system/etc/permissions/privapp-com.miui.gallery.xml",
+    sub_dir: "permissions",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "config-com.miui.gallery.xml",
+    src: "proprietary/system/etc/sysconfig/config-com.miui.gallery.xml",
+    sub_dir: "sysconfig",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "default-com.miui.gallery.xml",
+    src: "proprietary/system/etc/default-permissions/default-com.miui.gallery.xml",
+    sub_dir: "default-permissions",
+    filename_from_src: true,
+}
