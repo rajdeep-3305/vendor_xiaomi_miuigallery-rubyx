@@ -12,7 +12,7 @@ android_app_import {
     overrides: [
         "Gallery2", "Glimpse" // This replaces the default AOSP/LineageOS Gallery if it exists
     ],
-    certificate: "platform",
+    presigned: true,
     dex_preopt: {
         enabled: false,
     },
