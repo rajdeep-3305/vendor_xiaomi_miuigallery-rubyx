@@ -39,3 +39,13 @@ prebuilt_etc {
     sub_dir: "default-permissions",
     filename_from_src: true,
 }
+android_app_import {
+    name: "MIMediaEditorGlobal",
+    owner: "xiaomi",
+    apk: "proprietary/system/app/MIMediaEditorGlobal/MIMediaEditorGlobal.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: false,
+}
