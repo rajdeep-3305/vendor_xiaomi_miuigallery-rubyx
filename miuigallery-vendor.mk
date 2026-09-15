@@ -3,7 +3,7 @@
 #
 
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/xiaomi/miuigallery
+    vendor/xiaomi/miuigallery-rubyx
 
 PRODUCT_PACKAGES += \
     MiuiGallery \
@@ -14,8 +14,8 @@ PRODUCT_PACKAGES += \
     micloud-sdk.xml
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/miuigallery/proprietary/system/framework/micloud-sdk.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/micloud-sdk.jar \
-    vendor/xiaomi/miuigallery/proprietary/system/framework/security-device-credential-sdk.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/security-device-credential-sdk.jar \
-    vendor/xiaomi/miuigallery/proprietary/product/etc/device_features/ruby.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/ruby.xml \
-    vendor/xiaomi/miuigallery/proprietary/product/etc/device_features/rubypro.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/rubypro.xml \
-    vendor/xiaomi/miuigallery/proprietary/product/etc/device_features/rubyplus.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/rubyplus.xml
+    vendor/xiaomi/miuigallery-rubyx/proprietary/system/framework/micloud-sdk.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/micloud-sdk.jar \
+    vendor/xiaomi/miuigallery-rubyx/proprietary/system/framework/security-device-credential-sdk.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/security-device-credential-sdk.jar \
+    vendor/xiaomi/miuigallery-rubyx/proprietary/product/etc/device_features/ruby.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/ruby.xml \
+    vendor/xiaomi/miuigallery-rubyx/proprietary/product/etc/device_features/rubypro.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/rubypro.xml \
+    vendor/xiaomi/miuigallery-rubyx/proprietary/product/etc/device_features/rubyplus.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/rubyplus.xml
