@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="micloud-sdk"
+        file="/system/framework/micloud-sdk.jar"/>
+    <library name="security-device-credential-sdk.jar"
+        file="/system/framework/security-device-credential-sdk.jar"/>
+</permissions>
