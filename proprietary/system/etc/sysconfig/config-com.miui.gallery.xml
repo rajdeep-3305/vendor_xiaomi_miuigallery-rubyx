@@ -2,4 +2,10 @@
 <config>
     <hidden-api-whitelisted-app package="com.miui.gallery"/>
     <allow-in-power-save package="com.miui.gallery"/>
+    
+    <!-- Disable receivers to prevent duplicate photos with MiuiCamera -->
+    <component-override package="com.miui.gallery">
+        <component class="com.miui.gallery.receiver.MiuiCameraCaptureReceiver" enabled="false" />
+        <component class="com.miui.gallery.receiver.MediaScannerReceiver" enabled="false" />
+    </component-override>
 </config>
